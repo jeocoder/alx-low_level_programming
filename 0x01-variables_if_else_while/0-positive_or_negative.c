@@ -6,7 +6,7 @@
 /* main - main will assign a random number to the variable n */
 /* Return: 0 upon success */
 
-int main(void)
+int main(void);
 {
 	int n;
 
