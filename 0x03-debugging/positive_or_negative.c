@@ -3,7 +3,7 @@
 /**
  * positive_or_negative - main function
  *
- * @i: parameter of the function
+ * @i: parameter
  *
  * Return: always 0
  */
