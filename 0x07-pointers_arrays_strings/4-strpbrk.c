@@ -11,15 +11,15 @@ char *_strpbrk(char *s, char *accept)
 {
 	while (*s != '\0')
 	{
-		const char *accept_ptr = accept;
+		char *a = accept;
 
-		while (*ptr != '\0')
+		while (*a != '\0')
 		{
-			if (*s == *ptr)
+			if (*s == *a)
 			{
 				return (s);
 			}
-			ptr++;
+			a++;
 		}
 		s++;
 	}
